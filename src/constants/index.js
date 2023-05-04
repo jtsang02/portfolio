@@ -22,7 +22,7 @@ export const navLinks = [
     title: "Contact",
   },
   {
-    id: "./public/Resume.pdf",
+    id: "https://github.com/jtsang02/portfolio/blob/main/public/Resume.pdf",
     title: "Resume",
   }
 ];
