@@ -4,6 +4,7 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { menu, close } from "../assets";
 import spacecraft from "/src/assets/util_icons/spacecraft.svg";
+import resume from "/src/assets/resume/resume.pdf";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -56,7 +57,7 @@ const Navbar = () => {
               hover:text-white py-1 text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-              <a href={nav.title === 'Resume' ? nav.id : `#${nav.id}`}>
+              <a href={nav.title === 'Resume' ? resume : `#${nav.id}`}>
                 
                 {nav.title}</a>
             </li>
@@ -86,7 +87,7 @@ const Navbar = () => {
                     setActive(nav.title);
                   }}
                 >
-                  <a href={nav.title === 'Resume' ? nav.id : `#${nav.id}`}>
+                  <a href={nav.title === 'Resume' ? resume : `#${nav.id}`}>
                     {nav.title}</a>
                 </li>
               ))}
