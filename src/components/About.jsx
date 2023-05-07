@@ -54,7 +54,7 @@ const About = () => {
             <br></br>
             <p>I am passionate about software development and
               looking to build my skills as a developer.  Here are some areas of interest
-              that I have explored through my projects and work.</p>
+              that I have explored through my projects and work experience.</p>
           </motion.p>
         </motion.div>
         <motion.div
