@@ -243,7 +243,7 @@ const projects = [
       }
     ],
     image: musepet1,
-    source_code_link: "https://ubcmint.github.io/projects.html",
+    source_code_link: "https://github.com/UBCMint/MUSE-Pet",
   },
   {
     name: "ScorePort",
