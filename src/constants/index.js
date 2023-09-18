@@ -1,7 +1,7 @@
 import {
   fullstack, embedded, machinelearning, productdev,
-  scoreport, spatialcalc, eegheadset, musepet1, musepetmain, oreprediction,
-  airops, GHL, mint
+  scoreport, spatialcalc, eegheadset, musepet1, oreprediction,
+  airops, GHL, mint, JH
 } from "../assets";
 
 export const navLinks = [
@@ -159,6 +159,16 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Project Engineer Intern",
+    company_name: "Jensen Hughes",
+    icon: JH,
+    iconBg: "#383E56",
+    date: "Sept 2023 - Present",
+    points: [
+      "In progress...",
+    ],
+  },
+  {
     title: "Software Developer",
     company_name: "UBC Multifaceted Innovation in NeuroTechnology",
     icon: mint,
@@ -172,7 +182,7 @@ const experiences = [
     ],
   },
   {
-    title: "Database and Automation Developer",
+    title: "Software Developer Intern",
     company_name: "AirOps",
     icon: airops,
     iconBg: "#383E56",
@@ -191,8 +201,8 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jul 2015 - Aug 2019",
     points: [
-      " Liaised with municipal authorities on technical Building Code compliance issues and communicate compliance measures and approaches to members of the design team.",
-      "Singlehandedly built and introduced an Excel-based software program to automate spatial interpolation calculations.",
+      "Liaised with municipal authorities on technical Building Code compliance issues and communicate compliance measures and approaches to members of the design team.",
+      "Developed and introduced an internal software program to automate spatial interpolation calculations.",
       "Held internal onboarding sessions to instruct technical staff of 30 – 40 employees how to use the program.",
       "Increased office efficiency by reducing billable hours by 3 – 5 hours per project, equating to 500+ work hours saved annually.",
     ],
