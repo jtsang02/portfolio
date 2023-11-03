@@ -1,6 +1,6 @@
 import {
   fullstack, embedded, machinelearning, productdev,
-  scoreport, spatialcalc, eegheadset, musepet1, oreprediction,
+  scoreport, spatialcalc, eegheadset, musepet1, oreprediction, projectOpener,
   airops, GHL, mint, JH
 } from "../assets";
 
@@ -210,6 +210,37 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "Project Opener",
+    description:
+      "A Next JS web app built for project managers to make requests for project openings, view the status of their requests, and assign to administrators for processing. ",
+    date: "Jun 2023 - Aug 2023",
+    points: [],
+    tags: [
+      {
+        name: "NextJS",
+        color: "#61DBFB",
+      },
+      {
+        name: "Auth0",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Nodemailer",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NodeJS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: projectOpener,
+    source_code_link: "https://github.com/jtsang02/project-opener",
+  },
   {
     name: "MUSE Pet",
     description:

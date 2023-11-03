@@ -20,6 +20,7 @@ import eegheadset from "./projects/eegheadset.png";
 import musepet1 from "./projects/musepet1.png";
 import musepetmain from "./projects/musepetmain.png";
 import oreprediction from "./projects/oreprediction.png";
+import projectOpener from "./projects/projOpener.png";
 
 export {
   logo,
@@ -37,6 +38,7 @@ export {
   spatialcalc,
   eegheadset,
   oreprediction,
+  projectOpener,
   best,
   mint,
   airops,
