@@ -237,6 +237,10 @@ const projects = [
         name: "MongoDB",
         color: "pink-text-gradient",
       },
+      {
+        name: "TailwindCSS",
+        color: "red-text-gradient",
+      },
     ],
     image: projectOpener,
     source_code_link: "https://github.com/jtsang02/project-opener",
