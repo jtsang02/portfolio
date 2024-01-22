@@ -163,9 +163,10 @@ const experiences = [
     company_name: "Jensen Hughes",
     icon: JH,
     iconBg: "#383E56",
-    date: "Sept 2023 - Present",
+    date: "Sept 2023 - Dec 2023",
     points: [
-      "In progress...",
+      "Collaborated with project teams in an Agile environment, interpreting stakeholder needs to deliver innovative solutions",
+      "Fostered seamless client communication to align product development with client expectations and project deadlines",
     ],
   },
   {
@@ -201,7 +202,6 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jul 2015 - Aug 2019",
     points: [
-      "Liaised with municipal authorities on technical Building Code compliance issues and communicate compliance measures and approaches to members of the design team.",
       "Developed and introduced an internal software program to automate spatial interpolation calculations.",
       "Held internal onboarding sessions to instruct technical staff of 30 – 40 employees how to use the program.",
       "Increased office efficiency by reducing billable hours by 3 – 5 hours per project, equating to 500+ work hours saved annually.",
