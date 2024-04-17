@@ -1,7 +1,7 @@
 import {
   fullstack, embedded, machinelearning, productdev,
   scoreport, spatialcalc, eegheadset, musepet1, oreprediction, projectOpener,
-  airops, GHL, mint, JH
+  airops, GHL, mint, JH, amazon
 } from "../assets";
 
 export const navLinks = [
@@ -43,11 +43,6 @@ export const socials = [
     link: "https://www.instagram.com/josiah.tsang",
     icon: "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg",
   },
-  // {
-  //   id: "discord",
-  //   link: "https://discord.com/users/jdmjo#6193",
-  //   icon: "https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg",
-  // },  
 ];
 
 const services = [
@@ -159,14 +154,24 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Development Engineer Intern",
+    company_name: "Amazon",
+    icon: amazon, 
+    iconBg: "#383E56",
+    date: "Jun 2024 - Sept 2024",
+    points: [
+      "loading resources...",
+    ],
+  },
+  {
     title: "Project Engineer Intern",
     company_name: "Jensen Hughes",
     icon: JH,
     iconBg: "#383E56",
     date: "Sept 2023 - Dec 2023",
     points: [
-      "Collaborated with project teams in an Agile environment, interpreting stakeholder needs to deliver innovative solutions",
-      "Fostered seamless client communication to align product development with client expectations and project deadlines",
+      "Collaborated with project teams in an Agile environment, interpreting stakeholder needs to deliver innovative solutions.",
+      "Fostered seamless client communication, ensuring product development aligned 100% with client expectations and deadlines.",
     ],
   },
   {
@@ -176,10 +181,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Sept 2022 - Present",
     points: [
-      "Contributing to software development for multi-disciplinary engineering design projects focused on medical technology",
-      "Developing a CRUD app using the MongoDB, Express, React, Node.js (MERN) stack to retrieve, analyze and store EEG signals.",
-      "Building a user intuitive interface for visualizing and interacting with EEG data using React, TypeScript and Bootstrap.",
-      "Assisting with backend development by writing Express route methods and making API endpoint requests using Axios.",
+      "Developed a CRUD app using the MongoDB, Express, React, Node.js (MERN) stack to process 1000+ EEG data points for multi-disciplinary engineering design project focused on medical technology.",
+      "Reduced EEG data analysis time by 30%, allowing signal processing researchers to focus on interpretation and design improvements.",
+      "Streamlined backend development by writing RESTful API routes and making endpoint requests using Axios.",
     ],
   },
   {
@@ -189,10 +193,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2022 - Aug 2022",
     points: [
-      "Built business databases in Airtable and build Zapier automations for clients to streamline their business workflows.",
+      "Built business databases and automations that streamlined client workflows, resulting in 20% increase in efficiency.",
       "Accessed APIs to migrate data from external sources and wrote scripts in JavaScript to implement custom database features.",
-      "Developed backend using the Airtable API in JavaScript to retrieve data across multiple tables within a database for a retail client.",
-      "Built an automated email system in Airtable for a product distribution client that pulls order data into specific fields.",
+      "Wrote scripts using JS and Airtable’s API to retrieve data across multiple tables within a database for a retail client.",
+      "Automated 40 task creations with condition-based trigger, saving an estimated 80 hours of manual work for a multi-phase retail project spanning 4 linked databases.",
     ],
   },
   {
@@ -202,6 +206,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jul 2015 - Aug 2019",
     points: [
+      "Consulted with architects and engineers to interpret and apply the BC Building Code to building designs.",
       "Developed and introduced an internal software program to automate spatial interpolation calculations.",
       "Held internal onboarding sessions to instruct technical staff of 30 – 40 employees how to use the program.",
       "Increased office efficiency by reducing billable hours by 3 – 5 hours per project, equating to 500+ work hours saved annually.",

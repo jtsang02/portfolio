@@ -12,6 +12,7 @@ import mint from "./company/mint.png";
 import airops from "./company/airops.png";
 import GHL from "./company/GHL.png";
 import JH from "./company/JH.png";
+import amazon from "./company/amazon.png";
 
 import carrent from "./projects/carrent.png";
 import scoreport from "./projects/scoreport.png";
@@ -43,5 +44,6 @@ export {
   mint,
   airops,
   GHL,
-  JH
+  JH,
+  amazon,
 };
