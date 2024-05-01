@@ -187,8 +187,8 @@ const experiences = [
     ],
   },
   {
-    title: "Software Developer Intern",
-    company_name: "AirOps",
+    title: "Software Automation Developer Intern",
+    company_name: "Claribase",
     icon: airops,
     iconBg: "#383E56",
     date: "Jan 2022 - Aug 2022",
