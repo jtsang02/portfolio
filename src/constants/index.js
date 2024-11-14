@@ -158,9 +158,13 @@ const experiences = [
     company_name: "Amazon",
     icon: amazon, 
     iconBg: "#383E56",
-    date: "Jun 2024 - Sept 2024",
+    date: "Jun 2024 - Oct 2024",
     points: [
-      "loading resources...",
+      "Designed and developed a web portal for internal vendors to view delivery window date ranges and improving the accuracy of delivery window queries by 100% across various supply chain operations.",
+      "Automated retrieval of historical delivery window logs, eliminating the need for on-call engineers to run manual queries.",
+      "Deployed a highly scalable API hosted on AWS ECS Fargate to query a DocumentDB elastic cluster, set up with AWS CDK to store delivery window calculation logs and handle up to 1000 concurrent requests per second.",
+      "Built a modern frontend using ReactJS and TypeScript, introducing a 2D calendar feature to provide an intuitive visualizer of the delivery window as date ranges.",
+      "Collaborated with vendor and product managers to identify key user pain points and gather technical requirements, ensuring the solution aligned with business needs."
     ],
   },
   {
@@ -187,7 +191,7 @@ const experiences = [
     ],
   },
   {
-    title: "Software Automation Developer Intern",
+    title: "Database Developer Intern",
     company_name: "Claribase",
     icon: airops,
     iconBg: "#383E56",
