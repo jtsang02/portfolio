@@ -154,6 +154,14 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Development Engineer",
+    company_name: "Amazon",
+    icon: amazon, 
+    iconBg: "#383E56",
+    date: "Mar 2025",
+    points: ["Incoming SDE at Amazon Supply Chain Optimization Technologies (SCOT)."],    
+  },
+  {
     title: "Software Development Engineer Intern",
     company_name: "Amazon",
     icon: amazon, 
@@ -212,7 +220,6 @@ const experiences = [
     points: [
       "Consulted with architects and engineers to interpret and apply the BC Building Code to building designs.",
       "Developed and introduced an internal software program to automate spatial interpolation calculations.",
-      "Held internal onboarding sessions to instruct technical staff of 30 – 40 employees how to use the program.",
       "Increased office efficiency by reducing billable hours by 3 – 5 hours per project, equating to 500+ work hours saved annually.",
     ],
   }
