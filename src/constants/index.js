@@ -396,33 +396,6 @@ const projects = [
     image: eegheadset,
     source_code_link: "https://github.com/jtsang02/MANU-465-EEG4",
   },
-  {
-    name: "Ore Quality Prediction",
-    description:
-      "Machine learning model that predicts how much silica is in ore concentrate.  The model is used to optimize the flotation process in a mine.",
-    date: "Nov 2022 - Dec 2022",
-    points: [
-      "Conducted 90+ hand dominance tests on individuals to collect EEG brainwave signals to build a comprehensive dataset.",
-      "Built and trained various machine learning classifiers including and Support Vector Machine (SVM) and K-Nearest Neighbour.",
-      "Achieved an 80.65% model accuracy with a Non-Linear SVM while meeting minimum sensitivity and f-score metrics.",
-    ],
-    tags: [
-      {
-        name: "Python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "SciKit-Learn",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Pandas",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: oreprediction,
-    source_code_link: "https://github.com/jtsang02/Quality-Prediction-of-Iron-Ore",
-  },
 ];
 
 export { services, technologies, experiences, projects };
