@@ -158,8 +158,8 @@ const experiences = [
     company_name: "Amazon",
     icon: amazon, 
     iconBg: "#383E56",
-    date: "Mar 2025",
-    points: ["Incoming SDE at Amazon Supply Chain Optimization Technologies (SCOT)."],    
+    date: "Mar 2025 - Present",
+    points: ["SDE at Amazon Supply Chain Optimization Technologies (SCOT)."],    
   },
   {
     title: "Software Development Engineer Intern",
